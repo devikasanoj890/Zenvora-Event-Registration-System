@@ -1,32 +1,16 @@
-# Zenvora – Event Registration System
+# React + Vite
 
-## Project Overview
-Zenvora is a web-based system that allows users to explore events and register online.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Technologies Used
-- Frontend: React, HTML, CSS, JavaScript
-- Backend: PHP
-- Database: MySQL
-- Tools: VS Code, XAMPP, phpMyAdmin
+Currently, two official plugins are available:
 
-## User Roles
-- **Participant:** Browse and register for events.
-- **Organizer:** Manage events.
-- **Administrator:** Manage users and system operations.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## Key Features
-- Event search and category filtering
-- User login and role-based access
-- Event registration management
-- Payment step for paid events
+## React Compiler
 
-## Database
-Database name: `zenvora_db`
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Tables: `users`, `events`, `registrations`
+## Expanding the ESLint configuration
 
-## How to Run
-1. Start Apache and MySQL in XAMPP.
-2. Place the PHP API in `htdocs`.
-3. Import the database using phpMyAdmin.
-4. Run `npm install` and `npm run dev` in the React project folder.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
