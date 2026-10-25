@@ -1,16 +1,33 @@
-# React + Vite
+# Zenvora – Event Registration System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About
+Zenvora is a web-based system for exploring events and registering online.
 
-Currently, two official plugins are available:
+## Technologies
+- React, HTML, CSS and JavaScript
+- PHP
+- MySQL
+- VS Code and XAMPP
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## User Roles
+- **Participant:** Browse and register for events.
+- **Organizer:** Manage events.
+- **Administrator:** Manage users and system operations.
 
-## React Compiler
+## Features
+- Event search and category filtering
+- User login
+- Event registration
+- Booking management
+- Payment step for paid events
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Database
+Database: `zenvora_db`
 
-## Expanding the ESLint configuration
+Tables: `users`, `events`, `registrations`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run the Frontend
+```bash
+npm install
+npm run dev
+```
